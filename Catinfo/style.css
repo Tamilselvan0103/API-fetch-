@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    gap: 2rem;
+    background-color: #b8c0d3;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#content{
+    background-color: #adbfe3;
+    box-shadow: 5px 5px 12px #36425b,
+                -5px -5px 12px #36425b;
+    overflow: scroll;    
+    height: 30rem;     
+    color: rgb(31, 30, 29);   
+}
+#content::-webkit-scrollbar{
+    display: none;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.card:hover{
+    cursor: pointer;
+    background-color:#bdc5d6;
+   
+    
+}
+#title{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+  
+}
+
